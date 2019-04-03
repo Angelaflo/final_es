@@ -17,7 +17,7 @@ function refreshPage(){
 } // onclick feature that refreshes the page
 
 function checkImage(el){
-	if (a.src.match("images/cat.PNG") && b.src.match("images/cat.PNG") && c.src.match("images/cat.PNG")){
+	if (a.src.match("images/cat.PNG") && b.src.match("images/cat.PNG") && c.src.match("images/cat.PNG") && d.src.match("images/cat.PNG") && e.src.match("images/cat.PNG")  && f.src.match("images/cat.PNG") && g.src.match("images/cat.PNG")){
 		console.log("You win!");
 		a.classList.add("opaque");
 		b.classList.add("opaque");
@@ -28,7 +28,7 @@ function checkImage(el){
 		g.classList.add("here");
 	} 
 	else{
-		//i wish this function would work when all lights are yellow, or all are red...
+		
 	}
 } // onclick feature where you click coraline and checks if all the correct tiles and if it is, it makes the cat images opaque and makes the key that is hidden appear. If all the correct tiles isn't checked, this function won't do anyhthing.
 
