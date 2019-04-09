@@ -17,7 +17,7 @@ function refreshPage(){
 } // onclick feature that refreshes the page
 
 function checkImage(el){
-	if (a.src.match("images/cat.PNG") && b.src.match("images/cat.PNG") && c.src.match("images/cat.PNG") && d.src.match("images/cat.PNG") && e.src.match("images/cat.PNG")  && f.src.match("images/cat.PNG") && g.src.match("images/cat.PNG")){
+	if (a.src.match("images/cat.PNG") && b.src.match("images/cat.PNG") && c.src.match("images/cat.PNG") && d.src.match("images/cat.PNG") && e.src.match("images/cat.PNG")  && f.src.match("images/cat.PNG")){
 		console.log("You win!");
 		a.classList.add("opaque");
 		b.classList.add("opaque");
