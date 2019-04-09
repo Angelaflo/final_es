@@ -25,7 +25,7 @@ function checkImage(el){
 		d.classList.add("opaque");
 		e.classList.add("opaque");
 		f.classList.add("opaque");
-		
+		g.classList.add("visible");
 	} 
 	else{
 		
